@@ -1,0 +1,10 @@
+2020-06-13 16:12:25,929:INFO:C_download_html:Process has started at Sat Jun 13 16:12:25 2020
+2020-06-13 16:12:26,404:WARNING:C_download_html:3906 2000 not downloaded: ".txt"
+2020-06-13 16:12:26,407:WARNING:C_download_html:3906 1999 not downloaded: "no format"
+2020-06-13 16:12:26,410:WARNING:C_download_html:3906 1997 not downloaded: ".txt"
+2020-06-13 16:12:26,413:WARNING:C_download_html:3906 1996 not downloaded: ".txt"
+2020-06-13 16:12:26,416:WARNING:C_download_html:3906 1995 not downloaded: ".txt"
+2020-06-13 16:12:26,422:INFO:C_download_html:Process has ended at Sat Jun 13 16:12:26 2020
+2020-06-13 16:12:26,422:INFO:C_download_html:Elapsed time: 0:00:00.493768
+2020-06-13 16:12:26,423:WARNING:C_download_html:END RUN 
+

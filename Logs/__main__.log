@@ -1,0 +1,12 @@
+2020-06-13 16:12:22,315:INFO:__main__:C:\Users\jrilla\OneDrive - Universität Zürich UZH\Code\edgar_10k
+2020-06-13 16:12:22,316:INFO:__main__:Process has started at Sat Jun 13 16:12:22 2020
+2020-06-13 16:12:22,316:INFO:__main__:Step A has started: Sat Jun 13 16:12:22 2020
+2020-06-13 16:12:22,986:INFO:__main__:Step A has finished: {time.ctime()}
+2020-06-13 16:12:22,986:INFO:__main__:Step B has started: {time.ctime()}
+2020-06-13 16:12:25,925:INFO:__main__:Step B has finished: Sat Jun 13 16:12:25 2020
+2020-06-13 16:12:25,926:INFO:__main__:Step C has started: Sat Jun 13 16:12:25 2020
+2020-06-13 16:12:26,423:INFO:__main__:Step C has finished: Sat Jun 13 16:12:26 2020
+2020-06-13 16:12:26,423:INFO:__main__:Process has ended at Sat Jun 13 16:12:26 2020
+2020-06-13 16:12:26,423:INFO:__main__:Elapsed time: 0:00:04.107714
+2020-06-13 16:12:26,423:WARNING:__main__:END RUN 
+
