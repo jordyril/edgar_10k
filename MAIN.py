@@ -19,12 +19,13 @@ logger = create_logging(__name__, level=logging.INFO)
 
 
 # directory set
-DIRECTORY = r"C:\Users\jrilla\Desktop\10K"  # desktop
+# DIRECTORY = r"C:\Users\jrilla\Desktop\10K"  # desktop
 # DIRECTORY = "C:/Users/jordy/Dropbox/Jordy/10K"  # laptop
+# os.chdir(DIRECTORY)
 
-os.chdir(DIRECTORY)
+
+DIRECTORY = os.path.abspath(os.path.dirname(__file__))
 logger.info(f"{DIRECTORY}")
-
 
 # =============================================================================
 ### CORE
