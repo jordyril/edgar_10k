@@ -23,13 +23,12 @@ identifier = "CIK"
 
 perform_index_link_scrape = True
 
-# input file with tickers. should contain a column with header 'Ticker'
-# ('CIK' column is redundant in this given file) and should be put in the
-# 'OUTPUT' folder (since technically its and output of the 'get_cik_ticker_combinations' script
+# input file with tickers. should contain a column with header 'identifier' and should be put in the
+# 'OUTPUT' folder (since technically its an output of the 'get_cik_ticker_combinations.py' script
 # but if not all tickers are wanted its better to create an own .csv file I guess)
 # Again, do not forget to put it in the 'Output' folder and with '_' up front
 # ticker_cik_file = "ticker_csv_option2.csv"
-ticker_cik_file = "test.csv"
+ticker_cik_file = "example.csv"
 
 # intermediate output file used in step B
 index_file_out = f"index_links_{identifier}.csv"  # default
@@ -47,7 +46,7 @@ form_10k_file_out = f"index_links_form_10k_links_{identifier}.csv"  # default
 # form_10k_file_out = "index_form_10k_links.csv"  # Results already saved
 
 ### STEP C
-perform_form_html_download = False
+perform_form_html_download = True
 
 # intermediate input file from step B
 form_10k_file_in = f"index_links_form_10k_links_{identifier}.csv"  # default

@@ -66,4 +66,3 @@ def output_path(file_name):
 
 def intermediate_output_path(file_name):
     return f"Output/_{file_name}"
-

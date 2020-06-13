@@ -164,4 +164,3 @@ ticker_list = list(full_df["Ticker"])
 summary_df = map_ticker_to_edgar_info(ticker_list)
 
 summary_df.to_pickle("Output/name_sic_cik_ticker_NasdaqNYSEAmex.pickle")
-
